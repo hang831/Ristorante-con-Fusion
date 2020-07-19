@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.auto {
+ max-width:50rem; /* Fix a max-height here */
+  overflow:auto
+}
+
+.dialog-enter {
+  opacity: 0.01;
+  transform: scale(1.1);
+}
+
+.dialog-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 750ms;
+}
+
+.dialog-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.dialog-exit-active {
+  opacity: 0.01;
+  transform: scale(1.1);
+  transition: all 750ms;
+}
+
+.bg {
+  background-image:url('https://developertenzin.github.io/confusion/img/logo.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color:#512DA8;   
+  font-size:2rem;
+}
+
+.position{
+  padding-left:35%;
+  padding-top:10%
+}
+
+.position2{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left:75%;
+  padding-bottom:15%
+}
+
+.position3{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left:74.5%;
+  padding-bottom:10%
+}
+
+.booking{
+  width:100%;
+  background-image:url('https://images.pexels.com/photos/3771110/pexels-photo-3771110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-repeat: no-repeat;
+  background-position: center right ;
+  color: #512DA8;
+}
+
+@media(min-width:960px){
+  .bookingButton{
+   height:60px;
+   width:250px;
+  margin-top:15%;
+  margin-right: 5%
+  }
+
+}
+
+
+
+
+
