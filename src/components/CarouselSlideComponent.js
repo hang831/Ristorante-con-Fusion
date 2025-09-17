@@ -9,7 +9,7 @@ import {
 
 const items = [
   {
-    src: 'https://developertenzin.github.io/confusion/img/uthappizza.png',
+    src: '/assets/images/uthappizza.png',
     altText: ' 【 Uthappizza 】' ,
     caption: 'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives...',
     logo: <h2><span class="badge badge-danger"> HOT </span></h2>,
@@ -17,14 +17,14 @@ const items = [
 
 },
   {
-    src: 'https://developertenzin.github.io/confusion/img/buffet.png',
+    src: '/assets/images/buffet.png',
     altText: ' 【 Weekend Grand Buffet 】',
     caption: 'Featuring mouthwatering combinations: salads, appetizers, main entrees, choicest desserts. Free-flowing bubbly and soft drinks.',
     logo: <h2><span class="badge badge-danger"> NEW </span></h2>,
     logo2:<span class="badge badge-pill badge-secondary"> $19.99 </span>
 },
   {
-    src: 'https://developertenzin.github.io/confusion/img/alberto.png',
+    src: '/assets/images/alberto.png',
     altText: ' 【 Alberto Somayya 】',
     caption: 'Award: three-star Michelin chef with wide International experience, good at creating mouthwatering Indo-Italian fusion...',
     logo2: <span className="btn btn-primary" style={{fontSize:"15px"}}>Executive Chef <span className="badge badge-light"><i class="fa fa-trophy" aria-hidden="true"></i></span></span>
